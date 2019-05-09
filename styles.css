@@ -11,3 +11,7 @@ nav.navbar ul.nav li {
 nav.navbar {
     background-color: #CC1414;
 }
+
+.jumbotron {
+    background-image: url("img/dog_01.jpg");
+    background-size: cover;}
