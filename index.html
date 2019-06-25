@@ -1,17 +1,86 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>Hello, world!</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles.css">
+    <title>Hello, world!</title>
 </head>
 
 <body>
+
+        <nav class="navbar sticky-top navbar-light bg-light">
+                <a class="navbar-brand" href="#">Fixed bottom</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+
+
+
+                  <form class="form" action="">
+                    <p>
+                        <h4>Filtros</h4>
+                    </p>
+                    <hr />
+                    <div class="form-group">
+                        <label for="tipo">
+                            <p>
+                                <h6>Tipo</h6>
+                            </p>
+                        </label>
+                        <select class="custom-select custom-select-md">
+                            <option selected></option>
+                            <option value="1">Perro</option>
+                            <option value="2">Gato</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="nombre" class="form-control" id="nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="barrio">Barrio</label>
+                        <input type="barrio" class="form-control" id="barrio">
+                    </div>
+                    <div class="form-group">
+                        <label for="raza">Raza</label>
+                        <input type="raza" class="form-control" id="raza">
+                    </div>
+                    <div class="form-group">
+                        <label for="sexo">Sexo</label>
+                        <select class="custom-select custom-select-md">
+                            <option selected></option>
+                            <option value="1">Macho</option>
+                            <option value="2">hembra</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="edad">Edad</label>
+                        <input type="edad" class="form-control" id="edad">
+                    </div>
+                    <div class="form-group">
+                        <label for="pelo">Color de pelo</label>
+                        <input type="pelo" class="form-control" id="pelo">
+                    </div>
+                    <div class="form-group">
+                        <label for="ojos">Color de ojos</label>
+                        <input type="ojos" class="form-control" id="ojos">
+                    </div>
+                </form>
+                  
+                </div>
+              </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -21,75 +90,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <!-- Cabecera -->
-    <header>
-        <h1>Drone</h1>
-        <p>Mi web sobre DRONES</p>
-    </header>
-
-    <!-- Menu de navegacion -->
-    <nav>
-        <div class="container-fluid">
-            <ul>
-                <li><a href="pagina1.html">Menu 1</a></li>
-                <li><a href="pagina2.html">Menu 2</a></li>
-                <li><a href="pagina3.html">Menu 3</a></li>
-            </ul>
-        </div>
-
-    </nav>
-
-    <!-- Contenido -->
-    <article>
-
-        <h2>Titulo</h2>
-
-        <section>
-            <h3>Capitulo 1</h3>
-            <p>...</p>
-            <p>...</p>
-        </section>
-
-        <section>
-            <h3>Capitulo 2</h3>
-            <p>...</p>
-            <img src="imagen.png">
-
-            <!-- Contenido relacionado-->
-            <aside>
-                Referencias a otros sitios...
-            </aside>
-        </section>
-
-        <section>
-            ...
-        </section>
-
-        <section>
-            <h3>Comentarios</h3>
-            <article>
-                <header>
-                    <h4>Pepito dice:</h4>
-                    <p><time pubdate datetime="2013-11-13">Hace 3 hora</time></p>
-                </header>
-                <p>Bla,bla,bla.</p>
-            </article>
-
-            <article>
-                <header>
-                    <h4>Juanito dice:</h4>
-                    <p><time pubdate datetime="2013-11-13">Hace 1 hora</time></p>
-                </header>
-                <p>Como que bla,bla,bla!!!</p>
-            </article>
-        </section>
-
-    </article>
-
-    <!-- Pie de pagina -->
-    <footer>
-        ...
-    </footer>
 </body>
 
 </html>
