@@ -1,5 +1,6 @@
 body, html {
     background-color: rgb(47, 57, 66);
+    /*     background-color: black; */
     height: 100%;
     margin: 0;
     font-family: "Roboto", Helvetica, sans-serif;
@@ -68,22 +69,20 @@ hr {
     border-top: 1px solid white;
 }
 
-.navbar {
+/* .navbar {
     background-color: rgb(47, 57, 66);
-}
+} */
 
-.jumbotron {
-    background: url("assets/jumbo.jpg") no-repeat center center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+.navbar-info {
+    color: white;
+    text-align: center;
 }
 
 #img_p1 {
     width: 60%;
     margin-top: 10px;
 }
+
 #img_p2 {
     width: 60%;
     margin-top: 20%;
@@ -103,6 +102,51 @@ hr {
 .player_video_01 {
     width: 98%;
     height: 100%;
+}
+
+.pilots_title, .teams_title {
+    border: 2px solid white;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top: 20px;
+}
+
+.card_img {
+    width: 100%
+}
+
+.card h4 {
+    color: red;
+    font-stretch: expanded;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card h5 {
+    color: black;
+    font-stretch: expanded;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card .card-text {
+    color: black;
+    font-size: 14px;
+    font-style: italic;
 }
 
 footer {
