@@ -60,9 +60,11 @@ h2 {
 p{
     text-align: justify;
     font-size: 18px;
-    color: white;
+    color: white;  
+}
 
-  
+hr {
+    border-top: 1px solid white;
 }
 
 .navbar {
@@ -75,6 +77,11 @@ p{
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
+}
+
+#img_p1{
+    width: 60%;
+    margin-top: 10px;
 }
 
 footer {
