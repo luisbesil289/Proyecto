@@ -114,7 +114,6 @@ hr {
     padding: 50px;
 }
 
-
 .card {
     font-size: 1em;
     overflow: hidden;
@@ -176,4 +175,96 @@ footer .copyright {
     text-transform: uppercase;
     background-color: rgb(47, 57, 66);
     width: 2%;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.card-blog {
+    margin-top: 60px;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: rgb(251, 255, 0);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.card .table {
+    padding: 15px 30px;
+}
+
+.category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+}
+
+.card-caption {
+    font-weight: 700;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.card-description {
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.news-title {
+/*     border: 2px solid white; */
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.shop-image {
+    margin-top: 60px;
+    width:100%;
+}
+
+.news-image{
+    margin-top: 20px;
+    width:100%;
 }
